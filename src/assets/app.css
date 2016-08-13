@@ -1,0 +1,15 @@
+.line-container {
+    margin: 20px;
+    width: 100px;
+    height: 8px;
+}
+.circle-container {
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+}
+.semi-circle-container {
+    margin: 20px;
+    width: 200px;
+    height: 100px;
+}

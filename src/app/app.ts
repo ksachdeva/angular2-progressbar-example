@@ -1,24 +1,3 @@
-# angular2-progressbar-example
-
-Example of how to use progressbar.js in angular 2 application
-
-# Install require global applications
-
-- npm install -g tslint
-- npm install -g typings
-- npm install -g typescript
-
-# Install local dependencies
-
-npm install
-
-# Run the application
-
-npm start
-
-# Example
-
-```
 import {Component, ViewChild, ViewChildren, QueryList} from '@angular/core';
 import {
   ShapeOptions,
@@ -106,4 +85,3 @@ export class App {
   }
 
 }
-```
