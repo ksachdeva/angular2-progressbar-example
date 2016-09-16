@@ -7,7 +7,6 @@ import {
 
 @Component({
   selector: 'app',
-  directives: [LineProgressComponent, CircleProgressComponent, SemiCircleProgressComponent],
   template: `
     <div class="line-container">
       <ks-line-progress [options]="lineOptions"></ks-line-progress>
@@ -20,7 +19,7 @@ import {
     </div>
   `
 })
-export class App {
+export class AppComponent {
 
   @ViewChild(LineProgressComponent) lineComp: LineProgressComponent;
   @ViewChild(CircleProgressComponent) circleComp: CircleProgressComponent;
